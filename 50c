@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    char num1[100][100];
+    for(int i=0;i<5;i++){
+        scanf("%s",num1[i]);
+    }
+    for(int i=0;i<15;i++){
+        for(int j=0;j<5;j++){
+            if(num1[j][i]!=NULL){
+                printf("%c",num1[j][i]);
+            }
+        }
+    }
+    
+    return 0;
+}
